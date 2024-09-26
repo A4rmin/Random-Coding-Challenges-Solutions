@@ -1,6 +1,6 @@
 # Random-Coding-Challenges-Solutions
-This repository serves as a collection of coding challenges and their solutions, focusing on problem-solving skills.
-Here’s a template for your README that you can use for the repository. It sets the stage for solving LeetCode challenges using TypeScript and outlines your self-learning journey:
+
+This repository contains solutions to various LeetCode challenges, primarily solved using **TypeScript**. It is part of my self-learning journey to enhance problem-solving skills, focusing on algorithmic thinking and efficient code implementation. Each challenge is accompanied by a detailed explanation of the approach, reasoning behind the solution, and alternative methods where applicable.
 
 ---
 
