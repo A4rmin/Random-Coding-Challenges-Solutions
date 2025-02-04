@@ -49,3 +49,8 @@ var findMedianSortedArrays = function(nums1, nums2) {
 // Example test cases
 console.log(findMedianSortedArrays([1,3], [2]));  // Output: 2.0
 console.log(findMedianSortedArrays([1,2], [3,4])); // Output: 2.5
+
+console.log(findMedianSortedArrays([], [1, 2, 3]));  // Output: 2.0
+console.log(findMedianSortedArrays([1, 2, 3], [4, 5, 6])); // Output: 3.5
+console.log(findMedianSortedArrays([0, 0], [0, 0])); // Output: 0.0
+console.log(findMedianSortedArrays([1], [2, 3, 4])); // Output: 2.5
