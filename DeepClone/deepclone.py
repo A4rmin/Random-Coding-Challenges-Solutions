@@ -77,5 +77,7 @@ flattened = clone_and_flatten(n1)
 print("\nFlattened and Cloned List:")
 curr = flattened
 while curr:
-    print(curr.val, end=" -> ")
+    print(curr.val, end=" ")
+    if curr.next :
+        print("->", end=" ")
     curr = curr.next
