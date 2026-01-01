@@ -30,3 +30,38 @@ We can simulate the addition of the numbers as we would do by hand:
 
 - **Time Complexity**: O(max(m, n)), where `m` and `n` are the lengths of the two linked lists. We traverse both lists once.
 - **Space Complexity**: O(max(m, n)) because the output linked list will have at most max(m, n) + 1 nodes (one extra node for any remaining carry).
+
+
+
+🔗 Linked List Challenge: Detect and Remove a Cycle
+✅ Problem:
+You are given the head of a singly linked list. Some nodes in the list may form a cycle (i.e., the last node points to an earlier node). Your tasks:
+
+Detect whether there is a cycle.
+
+If a cycle exists, remove the cycle so the list becomes linear again.
+
+Return the modified list's head.
+
+🔍 Example:
+Input:
+
+markdown
+Copy
+Edit
+1 → 2 → 3 → 4 → 5  
+          ↑     ↓  
+          ← ← ← ←
+Output:
+
+Copy
+Edit
+1 → 2 → 3 → 4 → 5
+
+💡 Hints (if you need):
+Use Floyd’s Tortoise and Hare for cycle detection.
+
+Once a cycle is detected, find the start of the cycle and break it.
+
+🧠 Bonus:
+Can you solve this in-place without modifying the values or using extra space (i.e., O(1) space)?
